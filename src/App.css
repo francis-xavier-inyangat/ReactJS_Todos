@@ -1,0 +1,74 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.addTask{
+  background-color: brown;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -40px;
+}
+.addTask input{
+  background-color: rgb(252, 220, 220);
+  color: black;
+  font-size: 15px;
+  width: 170px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 6px;
+  margin: 10px 38px;
+  border: 2px solid yellow;
+}
+.addTaskBtn{
+  padding: 11px;
+  width: 90px;
+  border-radius: 5%;
+  cursor: pointer;
+  font: 15px;
+  background-color: rgb(4, 4, 114);
+  color: azure;
+  border: none;
+
+
+}
+.list{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 50px;
+  flex-direction: column;
+}
+.deleteBtn{
+  padding: 5px;
+  font-size: 18px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 11%;
+  margin: 0px 20px;
+}
+.completeBtn{
+  padding: 5px;
+  font-size: 18px;
+  width: 100px;
+  background-color: gray;
+  color: white;
+  border-radius: 11%;
+  margin: 0px 10px 5px 10px;
+  align-self: flex-end;
+}
+
+.task{
+  margin: 5px 20px;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
